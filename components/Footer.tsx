@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           </div>
           <p className="text-sm text-brand-textSec">
             CNPJ: 00.000.000/0001-00 <br/>
-            São Paulo, SP
+            R. Arão Lins de Andrade, Nº 588 - Loja 02 - Prazeres, Jaboatão dos Guararapes - PE, 54310-335
           </p>
         </div>
 
