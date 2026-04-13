@@ -25,15 +25,6 @@ export const About: React.FC = () => {
               </a>
             </div>
           </div>
-          <div className="hidden md:block md:col-span-1">
-            <div className="w-full aspect-square rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
-              <img
-                src="/images/voerapido.svg"
-                alt="VoeRapido"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
         </div>
 
         {/* Background Pattern */}
