@@ -5,25 +5,25 @@ export const About: React.FC = () => {
   return (
     <Section id="about">
       <div className="bg-brand-dark rounded-2xl p-8 md:p-12 text-center md:text-left text-white relative overflow-hidden">
-        <div className="relative z-10 grid md:grid-cols-3 gap-8 items-center">
-          <div className="md:col-span-2 space-y-4">
-            <h2 className="text-2xl md:text-3xl font-bold">
-              Mais que uma agência, seus parceiros de viagem.
-            </h2>
-            <p className="text-brand-light/90 text-sm md:text-base leading-relaxed">
-              Fundada com o objetivo de simplificar o turismo corporativo e de
-              lazer, a VOERAPIDO combina tecnologia com atendimento humano. Não
-              somos robôs. Somos especialistas prontos para encontrar a melhor
-              rota, o melhor hotel e o melhor preço para você.
-            </p>
-            <div className="pt-4">
-              <a
-                href="#hero"
-                className="inline-block bg-white text-brand-primary font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-brand-surfaceHighlight transition-colors"
-              >
-                Fale com um consultor
-              </a>
-            </div>
+        <div className="relative z-10 max-w-3xl space-y-4">
+          <h2 className="text-2xl md:text-3xl font-bold">
+            Mais que uma agência, seus parceiros de viagem.
+          </h2>
+
+          <p className="text-brand-light/90 text-sm md:text-base leading-relaxed">
+            Fundada com o objetivo de simplificar o turismo corporativo e de
+            lazer, a VOERAPIDO combina tecnologia com atendimento humano. Não
+            somos robôs. Somos especialistas prontos para encontrar a melhor
+            rota, o melhor hotel e o melhor preço para você.
+          </p>
+
+          <div className="pt-4">
+            <a
+              href="#hero"
+              className="inline-block bg-white text-brand-primary font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-brand-surfaceHighlight transition-colors"
+            >
+              Fale com um consultor
+            </a>
           </div>
         </div>
 
