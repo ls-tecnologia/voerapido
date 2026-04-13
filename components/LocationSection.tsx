@@ -7,7 +7,7 @@ export const LocationSection: React.FC = () => {
     "https://www.google.com/maps/dir/?api=1&destination=-8.1636220918671,-34.926400322501095&destination_place_id=ChIJkRLWtrwQqncRr_ff67fl0Vk";
 
   const whatsappUrl =
-    "https://wa.me/55SEUNUMERO?text=Ol%C3%A1!%20Gostaria%20de%20atendimento%20na%20loja%20f%C3%ADsica.";
+    "https://wa.me/5581993077777?text=Ol%C3%A1!%20Gostaria%20de%20atendimento%20na%20loja%20f%C3%ADsica.";
 
   return (
     <section id="location" className="bg-brand-surfaceAlt py-14">

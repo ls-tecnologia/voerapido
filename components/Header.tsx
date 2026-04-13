@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, Plane } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -9,35 +9,34 @@ export const Header: React.FC = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
-    { name: 'Orçamento', href: '#hero' },
-    { name: 'Como Funciona', href: '#how-it-works' },
-    { name: 'Benefícios', href: '#benefits' },
-    { name: 'Depoimentos', href: '#testimonials' },
+    { name: "Orçamento", href: "#hero" },
+    { name: "Como Funciona", href: "#how-it-works" },
+    { name: "Benefícios", href: "#benefits" },
+    { name: "Depoimentos", href: "#testimonials" },
   ];
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled || isMenuOpen
-          ? 'bg-brand-surface shadow-md py-3'
-          : 'bg-transparent py-4'
+          ? "bg-brand-surface shadow-md py-3"
+          : "bg-transparent py-4"
       }`}
     >
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <div className="bg-brand-primary p-1.5 rounded-lg text-white">
-            <Plane size={20} fill="currentColor" />
-          </div>
-          <span className="text-xl font-bold tracking-tight text-brand-text">
-            VOERAPIDO
-          </span>
-        </div>
+        <a href="#hero">
+          <img
+            src="/images/voerapido.svg"
+            alt="VoeRapido"
+            className="h-10 w-auto"
+          />
+        </a>
 
         {/* Mobile Menu Toggle */}
         <button
@@ -45,11 +44,7 @@ export const Header: React.FC = () => {
           className="md:hidden p-2 text-brand-text hover:bg-brand-surfaceHighlight rounded-md"
           aria-label="Menu"
         >
-          {isMenuOpen ? (
-            <X size={24} />
-          ) : (
-            <Menu size={24} />
-          )}
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
         {/* Desktop Nav */}
@@ -64,7 +59,9 @@ export const Header: React.FC = () => {
             </a>
           ))}
           <a
-            href="#hero"
+            href="https://wa.me/5581993077777"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-brand-primary hover:bg-brand-dark text-white px-5 py-2 rounded-md text-sm font-semibold transition-colors shadow-sm"
           >
             Falar no WhatsApp
