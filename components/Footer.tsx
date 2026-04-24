@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
         <div>
           <h4 className="font-bold text-brand-text mb-3">Contato</h4>
           <div className="flex gap-4 text-brand-textSec mb-3">
-            <a
+            
               href="https://www.instagram.com/voerapido"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,7 +76,7 @@ export const Footer: React.FC = () => {
             >
               <Instagram size={20} />
             </a>
-            <a
+            
               href="https://wa.me/5581987365000"
               target="_blank"
               rel="noopener noreferrer"
@@ -93,11 +93,18 @@ export const Footer: React.FC = () => {
               </svg>
             </a>
           </div>
-          <a
+          
             href="tel:+558134765000"
             className="text-sm text-brand-textSec hover:text-brand-primary transition-colors"
           >
             (81) 3476-5000
+          </a>
+          <br />
+          
+            href="mailto:atendimento@voerapido.com"
+            className="text-sm text-brand-textSec hover:text-brand-primary transition-colors"
+          >
+            atendimento@voerapido.com
           </a>
         </div>
       </div>
@@ -109,7 +116,7 @@ export const Footer: React.FC = () => {
         </p>
         <p className="text-xs text-brand-muted mt-1">
           Desenvolvido por{" "}
-          <a
+          
             href="https://atlaspe.com.br"
             target="_blank"
             rel="noopener noreferrer"
