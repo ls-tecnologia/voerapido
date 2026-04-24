@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
               <Instagram size={20} />
             </a>
             <a
-              href="https://wa.me/5581993077777"
+              href="https://wa.me/5581987365000"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-brand-primary"
