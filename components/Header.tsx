@@ -59,7 +59,7 @@ export const Header: React.FC = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/5581993077777"
+            href="https://wa.me/5581987365000"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brand-primary hover:bg-brand-dark text-white px-5 py-2 rounded-md text-sm font-semibold transition-colors shadow-sm"
