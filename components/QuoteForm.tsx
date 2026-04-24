@@ -233,7 +233,7 @@ Obrigado!
 
       const encoded = encodeURIComponent(text);
       // Atualizado para o número solicitado: 81993077777 (com prefixo do país 55)
-      window.open(`https://wa.me/5581993077777?text=${encoded}`, '_blank');
+      window.open(`https://wa.me/5581987365000?text=${encoded}`, '_blank');
       setIsSubmitting(false);
     }, 600);
   };
@@ -241,7 +241,7 @@ Obrigado!
   const handleInternationalClick = () => {
     const text = `Olá! Tenho interesse em uma *Viagem Internacional*. Gostaria de falar com um consultor.`;
     // Atualizado para o número solicitado
-    window.open(`https://wa.me/5581993077777?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/5581987365000?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
