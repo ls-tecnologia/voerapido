@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
           <img src="/images/voerapido.svg" alt="VoeRapido" className="h-9 w-auto" />
           <p className="text-sm text-brand-textSec">
             CNPJ: 24.364.263/0001-48 <br />
-            R. Arão Lins de Andrade, Nº 588 - Loja 02 - Prazeres, Jaboatão dos Guararapes - PE, 54310-335
+            R. Arão Lins de Andrade, Nº 588 - BOX69 - Prazeres, Jaboatão dos Guararapes - PE, 54310-335
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
               </svg>
             </a>
           </div>
-          <a href="tel:+558134765000" className="text-sm text-brand-textSec hover:text-brand-primary transition-colors">(81) 3476-5000</a>
+          <a href="tel:+5581987365000" className="text-sm text-brand-textSec hover:text-brand-primary transition-colors">(81) 98736-5000</a>
           <br />
           <a href="mailto:atendimento@voerapido.com" className="text-sm text-brand-textSec hover:text-brand-primary transition-colors">atendimento@voerapido.com</a>
         </div>
