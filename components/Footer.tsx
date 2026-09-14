@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
           <img src="/images/voerapido.svg" alt="VoeRapido" className="h-9 w-auto" />
           <p className="text-sm text-brand-textSec">
             CNPJ: 24.364.263/0001-48 <br />
-            R. Arão Lins de Andrade, Nº 588 - BOX69 - Prazeres, Jaboatão dos Guararapes - PE, 54310-335
+            R. Arão Lins de Andrade, Nº 588 - Box 69 - Prazeres, Jaboatão dos Guararapes - PE, 54310-335
           </p>
         </div>
 
